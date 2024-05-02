@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list_item {
+    display: flex;
+    gap: 30px;
+    margin-top: 9.5px;
+}
+
+.list {
+    font-family: HelveticaNeueCyr;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13.93px;
+    color: #6C6F71;
+    cursor: pointer;
+}
+
+.list:hover {
+    color: #0e66b4;
+}
+
+.phone_number {
+    display: flex;
+    gap: 10px;
+}
+
+.working_time {
+    font-family: HelveticaNeueCyr;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12.94px;
+    color: #4E5760;
+    padding-top: 10px;
+}
+
+.tel_number {
+    font-family: HelveticaNeueCyr;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 15.81px;
+    color: #000000;
+    padding-top: 8px;
+}
+
+.tel_btn {
+    width: 134px;
+    height: 32px;
+    border: none;
+    background-color: #F2F6FC;
+    color: #2A5E8D;
+    font-family: HelveticaNeueCyr;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 10px;
+    border-radius: 5px;
+}
+
+.katalog_btn {
+    width: 154px;
+    height: 52px;
+    border: none;
+    border-radius: 5px;
+    background-color: #186FD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.katalog_text {
+    font-family: HelveticaNeueCyr;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+.search {
+    width: 100%;
+    height: 52px;
+    background-color: #186FD4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_input {
+    width: 480px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 5px;
+    border-radius: 6px;
+    font-family: HelveticaNeueCyr;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13.93px;
+    color: #A0A3A5;
+}
+
+.sobitiya {
+    display: flex;
+    gap: 27px;
+    justify-content: end;
+    text-align: center;
+}
+
+.sobitiya_paragraf {
+    font-family: HelveticaNeueCyr;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 8px;
+    color: #6B7076;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.bg_bg {
+    width: 100%;
+}
+
+.bg_text {
+    margin-left: 60px;
+}
+
+.instrument_div {
+    position: absolute;
+    top: 0;
+    margin-top: 250px;
+    display: flex;
+    gap: 100px;
+}
+
+.instrument {
+    font-family: HelveticaNeueCyr;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2C333D;
+}
+
+.instrument_paragraf {
+    font-family: HelveticaNeueCyr;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2C333D;
+    padding-bottom: 23px;
+}
+
+.instrument_btn {
+    width: 252px;
+    height: 62px;
+    border: none;
+    border-radius: 8px;
+    background-color: #011120;
+    color: #FFFFFF;
+    font-family: HelveticaNeueCyr;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+}
+
+.nuqta {
+    margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .nav_resp_page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tel_number_resp {
+        font-family: HelveticaNeueCyr;
+        font-size: 16px;
+        font-weight: 550;
+        line-height: 15.81px;
+        color: #000000;
+        padding-top: 9px;
+    }
+
+    .resp_tel_btn {
+        width: 132px;
+        height: 32px;
+        border: none;
+        background-color: #F2F6FC;
+        color: #2A5E8D;
+        border-radius: 5px;
+        font-family: HelveticaNeueCyr;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 10px;
+    }
+
+    .stroy_gorod {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logotips_resp {
+        display: flex;
+        gap: 6px;
+    }
+
+    .katalog_resp {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .katalog_resp_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 13px;
+        width: 134px;
+        height: 46px;
+        border: none;
+        background-color: #186FD4;
+        border-radius: 8px;
+    }
+
+    .katalog_resp_text {
+        font-family: HelveticaNeueCyr;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding-top: 8px;
+    }
+
+    .input_resp_div {
+        width: 186px;
+        height: 46px;
+        background-color: #186FD4;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .resp_input {
+        width: 144px;
+        height: 40px;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        margin-left: 6px;
+        padding-left: 10px;
+        font-family: HelveticaNeueCyr;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 13.93px;
+        color: #A0A3A5;
+    }
+
+    .header_resp_page {
+        text-align: center;
+    }
+
+    .text_bg_resp {
+        position: relative;
+    }
+
+    .bg_resp_img {
+        text-align: center;
+    }
+
+    .instrument_resp {
+        font-family: HelveticaNeueCyr;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 33px;
+        text-align: center;
+        color: #2C333D;
+        padding-bottom: 10px;
+    }
+
+    .instrument_btn_resp {
+        width: 193px;
+        height: 53px;
+        border: none;
+        background-color: #011120;
+        color: #FFFFFF;
+        font-family: HelveticaNeueCyr;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+}
