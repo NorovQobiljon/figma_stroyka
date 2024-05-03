@@ -126,18 +126,17 @@
 
 .bg_bg {
     width: 100%;
+    position: absolute;
 }
 
 .bg_text {
+    position: relative;
     margin-left: 60px;
+    margin-top: 80px;
 }
 
 .instrument_div {
-    position: absolute;
-    top: 0;
-    margin-top: 250px;
-    display: flex;
-    gap: 100px;
+    position: relative;
 }
 
 .instrument {
@@ -171,10 +170,148 @@
     text-align: center;
 }
 
-.nuqta {
-    margin-top: 300px;
+.bg_header_text {
+    display: flex;
+    gap: 100px;
+    align-items: end;
 }
 
+.nuqta {
+    position: relative;
+}
+
+.section_logo {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sec_paragraf {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    text-align: center;
+    color: #3B3C3F;
+    padding-top: 15px;
+}
+
+.section_card {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #F3F4F5;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section_card_end {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    border: 2px solid #F6F7F9;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card_img {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.card_paragraf_1 {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    color: #3B3C3F;
+    padding-bottom: 39px;
+}
+
+.card_paragraf_2 {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    color: #3B3C3F;
+    padding-bottom: 29px;
+}
+
+.card_paragraf_3 {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    color: #3B3C3F;
+    padding-bottom: 39px;
+}
+
+.card_paragraf_4 {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    color: #3B3C3F;
+    padding-top: 15px;
+    padding-bottom: 39px;
+}
+
+.card_paragraf_5 {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    color: #3B3C3F;
+    padding-bottom: 19px;
+}
+
+.card_paragraf_6 {
+    font-family: HelveticaNeueCyr;
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 19px;
+    color: #3B3C3F;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.card_img_end {
+    margin-top: 40px;
+}
+
+.card_section_bg {
+    position: absolute;
+}
+
+.card_sec_text {
+    position: relative;
+    padding-top: 43px;
+    padding-left: 36px;
+}
+
+.card_section_text {
+    font-family: HelveticaNeueCyr;
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 26px;
+    color: #2C333D;
+    padding-bottom: 7px;
+}
+
+.card_sec_btn {
+    width: 73px;
+    height: 31px;
+    border: none;
+    background-color: #011120;
+    font-family: HelveticaNeueCyr;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
 
 
 
@@ -301,15 +438,25 @@
         color: #A0A3A5;
     }
 
-    .header_resp_page {
-        text-align: center;
-    }
-
     .text_bg_resp {
         position: relative;
+        padding-top: 500px;
+    }
+
+    .resp_bg {
+        width: 100%;
+        position: absolute;
     }
 
     .bg_resp_img {
+        position: relative;
+    }
+
+    .bg_text_resp {
+        text-align: center;
+    }
+
+    .nuqta_resp {
         text-align: center;
     }
 
@@ -335,6 +482,42 @@
         line-height: 17px;
         text-align: center;
         border-radius: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .section_logo_resp {
+        display: flex;
+        gap: 11px;
+        justify-content: center;
+    }
+
+    .sec_paragraf_resp {
+        font-family: HelveticaNeueCyr;
+        font-size: 15px;
+        font-weight: 550;
+        line-height: 19px;
+        color: #3B3C3F;
+        padding-top: 15px;
+    }
+
+    .section_card_resp {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .section_card_resp_1 {
+        width: 156px;
+        background-color: #F3F4F5;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .section_card_end_resp {
+        width: 156px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        text-align: center;
+        border: 2px solid #F3F4F5;
     }
 }
