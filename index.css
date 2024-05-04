@@ -369,6 +369,7 @@
 
 .xit_card_price {
     display: flex;
+    justify-content: center;
     gap: 10px;
     padding-bottom: 11px;
 }
@@ -1004,17 +1005,6 @@ footer {
         border: 2px solid #F3F4F5;
     }
 
-    .card_sec_bg {
-        position: relative;
-        width: 150px;
-        text-align: center;
-    }
-
-    .card_sec_text_resp {
-        position: relative;
-        padding-top: 30px;
-        padding-left: 100px;
-    }
 
     .xit_page_resp {
         margin-top: 30px;
@@ -1063,6 +1053,7 @@ footer {
     .xit_card_resp {
         width: 330px;
         margin: auto;
+        text-align: center;
     }
 
     .xit_korzina_resp {
